@@ -1,0 +1,127 @@
+footer {
+  padding-top: 9rem;
+  padding-bottom: 3rem;
+  font-size: 1.5rem;
+  color: #8e8e8e;
+}
+
+footer h4 {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding-bottom: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+footer ul {
+  margin-left: 0;
+  padding: 0 60px 0 0;
+}
+
+footer ul li {
+  padding-left: 0;
+}
+
+.footer-main {
+  padding-bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  margin: 0 100px;
+}
+
+.footer-main ul li {
+  list-style: none;
+}
+
+.footer-main ul a,
+.footer-main ul a:visited {
+  color: #8e8e8e;
+  border: none;
+}
+
+.footer-main ul a:hover,
+.footer-main ul a:focus {
+  color: #000000;
+}
+
+.footer-main .footer-subscribe .subscribe-form input[type="email"] {
+  padding: 0.6rem 2rem;
+  background: rgba(0, 0, 0, 0.1);
+  border: none;
+  width: 100%;
+  color: #777777;
+  margin-bottom: 1.8rem;
+}
+
+.footer-bottom {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+#page-header .row {
+  max-width: 870px;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-main .footer-info {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .footer-main .row {
+    max-width: 420px;
+  }
+
+  .footer-main .footer-subscribe {
+    text-align: center;
+  }
+
+  .footer-main .subscribe-form form input[type="email"] {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    text-align: center;
+  }
+
+  .footer-bottom {
+    padding-bottom: 0.6rem;
+  }
+
+  .footer-bottom .copyright span {
+    display: block;
+  }
+
+  .footer-bottom .copyright span::after {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .footer-main .site-links,
+  .footer-main .social-links {
+    text-align: center;
+  }
+
+  .footer-main .site-links h4,
+  .footer-main .social-links h4 {
+    border: none;
+  }
+
+  .footer-main ul {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer-main ul li a {
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    padding: 0.6rem 0;
+  }
+
+  .footer-main ul li:first-child a {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+  }
+}

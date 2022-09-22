@@ -1,0 +1,33 @@
+.button.button-primary,
+a.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary {
+  background: #2c2c2c;
+  color: #ffffff;
+}
+
+.button.button-primary:hover,
+a.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus {
+  background: #000000;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.full-width {
+  width: 95%;
+}
+
+.respond h3 {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding-top: 20px;
+  margin-top: 60px;
+}

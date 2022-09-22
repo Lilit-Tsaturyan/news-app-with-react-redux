@@ -1,0 +1,41 @@
+#main-nav-wrap {
+  display: table;
+  padding-right: 85px;
+  font-family: "montserrat-regular", sans-serif;
+  font-size: 15px;
+  height: 78px;
+}
+
+.main-navigation li {
+  position: relative;
+  display: inline-block;
+  margin-right: 22px;
+  padding: 0;
+}
+
+.main-navigation li:last-child {
+  margin-right: 0;
+  color: #838383;
+  padding: 2px 5px;
+}
+
+.main-navigation li a {
+  display: block;
+  padding-bottom: 9px;
+  color: #898989;
+  border: none;
+}
+
+.main-navigation li a:hover {
+  color: #000000;
+}
+
+.main-navigation li > a {
+  border-bottom: 2px solid transparent;
+}
+
+.main-navigation a.current > li {
+  border-bottom: 2px solid #151515;
+  color: #000000;
+  font-family: "montserrat-bold", sans-serif;
+}
